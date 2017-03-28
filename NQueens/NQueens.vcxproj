@@ -10,17 +10,6 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="NQueens\Library\NQueensChecker.c" />
-    <ClCompile Include="NQueens\Library\SolutionListOperations.c" />
-    <ClCompile Include="NQueens\main.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="NQueens\Library\NQueensChecker.h" />
-    <ClInclude Include="NQueens\Library\NQueensDefinitions.h" />
-    <ClInclude Include="NQueens\Library\SolutionListOperations.h" />
-    <ClInclude Include="NQueens\Library\StructureDefinitions.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D06A0C60-A4E6-469F-907B-917C06E30994}</ProjectGuid>
     <RootNamespace>NQueens</RootNamespace>
@@ -77,6 +66,17 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="NQueensChecker.c" />
+    <ClCompile Include="SolutionListOperations.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NQueensChecker.h" />
+    <ClInclude Include="NQueensDefinitions.h" />
+    <ClInclude Include="SolutionListOperations.h" />
+    <ClInclude Include="StructureDefinitions.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

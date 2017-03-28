@@ -12,9 +12,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "StructureDefinitions.h"
-#include "SolutionListOperations.h"
-#include "NQueensChecker.h"
+#include "Library/StructureDefinitions.h"
+#include "Library/SolutionListOperations.h"
+#include "Library/NQueensChecker.h"
 
 
 candidateSolution workingCandidate;//this one will hold the soltion we arecurrently considering

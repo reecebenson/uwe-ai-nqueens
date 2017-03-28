@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NQueens\main.c">
+    <ClCompile Include="NQueensChecker.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NQueens\Library\NQueensChecker.c">
+    <ClCompile Include="SolutionListOperations.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NQueens\Library\SolutionListOperations.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NQueens\Library\NQueensChecker.h">
+    <ClInclude Include="NQueensChecker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NQueens\Library\NQueensDefinitions.h">
+    <ClInclude Include="NQueensDefinitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NQueens\Library\SolutionListOperations.h">
+    <ClInclude Include="SolutionListOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NQueens\Library\StructureDefinitions.h">
+    <ClInclude Include="StructureDefinitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
