@@ -8,23 +8,17 @@
  * Rewritten Oct 2015 to use more generic solution structures 
  * and functions with NQueens-specific names that call the functions that modify the
  */
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "Library/StructureDefinitions.h"
 #include "Library/SolutionListOperations.h"
 #include "Library/NQueensChecker.h"
 
-
 candidateSolution workingCandidate;//this one will hold the soltion we arecurrently considering
 candidateList  currentListOfCandidates; // this list will store all the soltion we;ve created but not examined yet
 candidateList listOfExaminedCandidates; // this is where we will store all the ones we're done with
 
-
-
 //************************ don't edit anything above this line***********************//
-
 
 int main(int argc, const char * argv[])
 {
